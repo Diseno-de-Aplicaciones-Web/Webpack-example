@@ -1,0 +1,33 @@
+{
+  "name": "dom-example",
+  "version": "1.0.0",
+  "description": "## TODO * Borrar una tarea. * Borrar todas las tareas completadas. * Mantener las tareas completadas al final (ordenar automáticamente). * Mostrar/ocultar tareas completadas. * Editar tareas no completadas. * Limpiar input tras añadir tarea. * No añadir tareas vacías. * Buscador de tareas. * Mostrar \"deshacer\" durante unos segundos tras eliminar una o varias tareas. * Asignar etiquetas a tareas. * Filtrar tareas por etiqueta.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diseno-de-Aplicaciones-Web/DOM-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diseno-de-Aplicaciones-Web/DOM-example/issues"
+  },
+  "homepage": "https://github.com/Diseno-de-Aplicaciones-Web/DOM-example#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "qr": "^0.2.4"
+  }
+}
